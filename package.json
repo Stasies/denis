@@ -1,10 +1,11 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "homepage": "https://stasies.github.io/denis/",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
