@@ -3,8 +3,8 @@ const config: NuxtConfig = {
       app: {
         target: 'static',
           router: {
-    base: '/denis/'
-  },
+            baseURL: '/denis/'
+        },
         head: {
             title: 'Денис - милашка',
             htmlAttrs: {
