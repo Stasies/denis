@@ -1,7 +1,6 @@
 {
   "name": "nuxt-app",
   "private": true,
-  "homepage": "https://Stasies.github.io/denis/",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
