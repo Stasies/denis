@@ -2,7 +2,9 @@ import type { NuxtConfig } from '@nuxt/types'
 const config: NuxtConfig = {
       app: {
         target: 'static',
-        baseURL: '/denis/',
+        router: {
+            base: '/<repository-name>/'
+        },
         head: {
             title: 'Денис - милашка',
             htmlAttrs: {
